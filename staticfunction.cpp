@@ -20,3 +20,11 @@ public:
     static int getNim() {
         return nim;
     }
+
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    };
+};
+
+int Mahasiswa::nim = 0;
+
